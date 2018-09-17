@@ -3,16 +3,18 @@ Theme Name:  THE ACADIA SCHOOL OF TRADITIONAL MUSIC & ARTS
 Theme URI:   http://acadiatradschool.org
 Version:     1.0
 Description: A child theme of Divi. This is a custom child theme created for our site The Acadia School of Traditional Music & Arts.
-Author:      
+Author:
 Author URI:  http://acadiatradschool.org
 Template:    Divi
 */
 
 
 /***********************************************************************
-Caution: do not remove this to keep Divi Children Engine always updated 
+Caution: do not remove this to keep Divi Children Engine always updated
 Divi Children Engine version: 1.0.3
 ***********************************************************************/
+$ats_orange: #edb059;
+$ats_ltorange: #edc398; // used in footer.
 
 /*------------------------------[FONT ICONS]-----------------------------*/
 /*--[Created by Divi Children, http://divi4u.com/divi-children-plugin/]--*/
@@ -81,6 +83,16 @@ Divi Children Engine version: 1.0.3
 /*------------------------------------------------*/
 /*---------------------[FOOTER]-------------------*/
 /*------------------------------------------------*/
+#main-footer {
+	border-top: 3px solid $ats_orange;
+	#footer-widgets {
+		.footer-widget {
+			.mc-field-group.input-group li:before {
+				display: none;
+			}
+		}
+	}
+}
 
 
 
@@ -112,100 +124,4 @@ Divi Children Engine version: 1.0.3
 /*------------------[TRANSITIONS]-----------------*/
 /*------------------------------------------------*/
 
-
-
-/*------------------------------------------------*/
-/*---------------[RESPONSIVE LAYOUTS]-------------*/
-/*------------------------------------------------*/
-
-@media only screen and ( min-width: 881px ) {
-
-}
-
-/*-------------------[960px]------------------*/
-@media only screen and ( min-width: 881px ) and ( max-width: 1100px ) {
-
-@media all and ( min-width: 881px ) and ( max-width: 1405px) {
-
-	/* Vertical Navigation + Pricing Tables */
-	.et_vertical_nav .et_pb_column_4_4 .et_pb_pricing_table { width: 33.333%!important; }
-	.et_vertical_nav .et_pb_pricing_2 .et_pb_pricing_table,
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_pricing_table,
-	.et_vertical_nav .et_pb_column_2_3 .et_pb_pricing_table { width: 50%!important; }
-
-	.et_vertical_nav .et_pb_pricing_1 .et_pb_pricing_table,
-	.et_vertical_nav .et_pb_column_1_2 .et_pb_pricing_table,
-	.et_vertical_nav .et_pb_column_3_8 .et_pb_pricing_table,
-	.et_vertical_nav .et_pb_column_1_3 .et_pb_pricing_table,
-	.et_vertical_nav .et_pb_column_1_4 .et_pb_pricing_table { width: 100%!important; margin: 0 0 30px!important; }
-
-	.et_vertical_nav .et_pb_pricing_1 .et_pb_pricing_table:last-child,
-	.et_vertical_nav .et_pb_column_1_2 .et_pb_pricing_table:last-child,
-	.et_vertical_nav .et_pb_column_3_8 .et_pb_pricing_table:last-child,
-	.et_vertical_nav .et_pb_column_1_3 .et_pb_pricing_table:last-child,
-	.et_vertical_nav .et_pb_column_1_4 .et_pb_pricing_table:last-child { margin-bottom: 0!important; }
-
-	.et_vertical_nav .et_pb_column_4_4 .et_pb_pricing_table:nth-child(4n+1),
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_pricing_table:nth-child(3n+1) { clear: none!important; }
-	.et_vertical_nav .et_pb_column_4_4 .et_pb_pricing_table:nth-child(3n+1),
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_pricing_table:nth-child(2n+1) { clear: both!important; }
-	.et_vertical_nav .et_pb_column_4_4 .et_pb_pricing_table:nth-child(n+4),
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_pricing_table:nth-child(n+3) { margin-top: 50px!important; }
-	.et_vertical_nav .et_pb_column_4_4 .et_pb_pricing_table.et_pb_featured_table:nth-child(n+4),
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_pricing_table.et_pb_featured_table:nth-child(n+3) { margin-top: 30px!important; }
-	.et_vertical_nav .et_pb_column_1_4 .et_pb_sum, .et_vertical_nav .et_pb_column_1_3 .et_pb_sum	{ font-size: 40px!important; }
-	.et_vertical_nav .et_pb_column_1_4 .et_pb_pricing_content_top, .et_vertical_nav .et_pb_column_1_3 .et_pb_pricing_content_top { padding-bottom: 20px!important; }
-
-	/* Vertical Nav + Slider Module */
-	.et_vertical_nav .et_pb_column_1_4 .et_pb_slider_fullwidth_off .et_pb_slide_description { width: 100%!important; }
-
-	/* Vertical Nav + WooCommerce */
-	.et_vertical_nav.archive.et_right_sidebar.woocommerce ul.products li.product:nth-child(2n),.et_vertical_nav.archive.et_left_sidebar.woocommerce ul.products li.product:nth-child(2n) { margin-right: 0px !important!important; }
-	.et_vertical_nav.archive.et_left_sidebar.woocommerce ul.products li.product:nth-child(2n+1), .et_vertical_nav.archive.et_right_sidebar.woocommerce ul.products li.product:nth-child(2n+1) { clear: both !important!important; margin-right: 60px !important!important; }
-	.et_vertical_nav.archive.et_left_sidebar.woocommerce ul.products li.product:nth-child(3n+1), .et_vertical_nav.archive.et_right_sidebar.woocommerce ul.products li.product:nth-child(3n+1) { clear: none !important!important; }
-
-	/* Vertical Nav + Audio Module */
-	.et_vertical_nav .et_pb_column_1_4 .et_audio_container { padding-bottom: 40px!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module .mejs-container .mejs-controls div, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module .mejs-container .mejs-controls div { position: absolute!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module .mejs-container, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module .mejs-container { height: 80px !important!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module .mejs-controls, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module .mejs-controls { height: 100% !important!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module .mejs-button.mejs-playpause-button, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module .mejs-button.mejs-playpause-button { top: 0px!important; left: 0!important; z-index: 99!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module .mejs-time.mejs-currenttime-container.custom, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module .mejs-time.mejs-currenttime-container.custom { top: 30px!important; left: 7px!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module .mejs-button.mejs-volume-button, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module .mejs-button.mejs-volume-button { top: 26px!important; right: 60px!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module a.mejs-horizontal-volume-slider, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module a.mejs-horizontal-volume-slider { top: 26px!important; right: 0!important; display: block !important!important; position: absolute !important!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module .mejs-horizontal-volume-total, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module .mejs-horizontal-volume-total { position: relative !important!important; width: 100% !important!important; display: block!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module .mejs-controls div.mejs-time-rail, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module .mejs-controls div.mejs-time-rail { width: 100% !important!important; padding-left: 30px !important!important; }
-	.et_vertical_nav .et_pb_column_3_4 .et_pb_audio_module a.mejs-time-total.mejs-time-slider, .et_vertical_nav .et_pb_column_2_3 .et_pb_audio_module a.mejs-time-total.mejs-time-slider { width: 100% !important!important; position: relative !important!important; margin-left: 0!important; }
-
-}
-
-/*-------------------[768px]------------------*/
-@media only screen and ( max-width: 980px ) {
-
-	/*-------------------[Portfolio]------------------*/
-	
-	/*-------------------[Sliders]------------------*/
-	
-	/*-------------------[Menu]------------------*/
-
-}
-
-@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
-
-}
-
-@media screen and ( max-width: 782px ) {
-
-}
-
-/*-------------------[480px]------------------*/
-@media only screen and ( max-width: 767px ) {
-
-	/*-------------------[Menu]------------------*/
-
-}
-
-/*-------------------[320px]------------------*/
-@media only screen and ( max-width: 479px ) {
-
-}
+@import "partials/media"; // size changes
