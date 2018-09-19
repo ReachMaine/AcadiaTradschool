@@ -52,8 +52,24 @@ Divi Children Engine version: 1.0.3
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 /*------------------------------------------------*/
-/*---------------[MAIN LAYOUT INFO]---------------*/
+/*---------------[HEADER]---------------*/
 /*------------------------------------------------*/
+#top-header .container {
+  padding-top: 0px; }
+  #top-header .container #et-info {
+    padding-top: 14px; }
+  #top-header .container #et-secondary-menu .ats-button a {
+    background-color: #afb5b9;
+    padding: 8px 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    box-shadow: 1px 1px 1px #777777;
+    font-weight: bold; }
+
+#main-header #et_mobile_nav_menu .ats-button a {
+  background-color: #afb5b9;
+  color: white; }
+
 /*------------------------------------------------*/
 /*---------------[DROPDOWN MENU]------------------*/
 /*------------------------------------------------*/

@@ -15,6 +15,9 @@ Divi Children Engine version: 1.0.3
 ***********************************************************************/
 $ats_orange: #edb059;
 $ats_ltorange: #edc398; // used in footer.
+$ats_dkorange: #9a5f0a; // used on support button in top bar header.
+
+$ats_grey: #afb5b9; // bkg on support button;
 
 /*------------------------------[FONT ICONS]-----------------------------*/
 /*--[Created by Divi Children, http://divi4u.com/divi-children-plugin/]--*/
@@ -63,10 +66,36 @@ $ats_ltorange: #edc398; // used in footer.
 
 
 /*------------------------------------------------*/
-/*---------------[MAIN LAYOUT INFO]---------------*/
+/*---------------[HEADER]---------------*/
 /*------------------------------------------------*/
 
-
+#top-header {
+	.container {
+		padding-top: 0px;
+		#et-info {
+			padding-top: 14px;
+		}
+		#et-secondary-menu { // support our mission "button"
+			.ats-button a {
+				 background-color: $ats_grey;
+				 padding: 8px 10px;
+				 margin-top: 5px;
+				 margin-bottom: 3px;
+				 //border: 2px solid #777777;
+				 box-shadow: 1px 1px 1px #777777;
+				 font-weight: bold;
+			}
+		}
+	}
+}
+#main-header {
+	#et_mobile_nav_menu	{
+			.ats-button a {
+				 background-color: $ats_grey;
+				 color: white;
+			}
+	}
+}
 
 /*------------------------------------------------*/
 /*---------------[DROPDOWN MENU]------------------*/
