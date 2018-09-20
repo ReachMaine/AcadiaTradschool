@@ -62,7 +62,9 @@ $ats_grey: #afb5b9; // bkg on support button;
 /*------------------------------------------------*/
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
-
+.ats-orange-border {
+	border: 3px solid $ats_orange;
+}
 
 
 /*------------------------------------------------*/
@@ -81,7 +83,6 @@ $ats_grey: #afb5b9; // bkg on support button;
 				 padding: 8px 10px;
 				 margin-top: 5px;
 				 margin-bottom: 3px;
-				 //border: 2px solid #777777;
 				 box-shadow: 1px 1px 1px #777777;
 				 font-weight: bold;
 			}
