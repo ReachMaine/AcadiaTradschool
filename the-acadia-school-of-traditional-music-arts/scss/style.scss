@@ -17,7 +17,8 @@ $ats_orange: #edb059;
 $ats_ltorange: #edc398; // used in footer.
 $ats_dkorange: #9a5f0a; // used on support button in top bar header.
 
-$ats_grey: #afb5b9; // bkg on support button;
+$ats_grey: #afb5b9; //
+$ats_dkgrey: #545454; //  bkg on support button;
 
 /*------------------------------[FONT ICONS]-----------------------------*/
 /*--[Created by Divi Children, http://divi4u.com/divi-children-plugin/]--*/
@@ -81,11 +82,11 @@ $ats_grey: #afb5b9; // bkg on support button;
 		}
 		#et-secondary-menu { // support our mission "button"
 			.ats-button a {
-				 background-color: $ats_grey;
-				 padding: 8px 10px;
+				 background-color: $ats_dkgrey;
+				 padding: 5px 10px;
 				 margin-top: 5px;
 				 margin-bottom: 3px;
-				 box-shadow: 1px 1px 1px #777777;
+				 box-shadow: 1px 1px 1px #5d5d5d;
 				 font-weight: bold;
 			}
 		}
