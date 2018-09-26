@@ -57,6 +57,11 @@ Divi Children Engine version: 1.0.3
 .ats-full-width {
   width: 100%; }
 
+.et_color_scheme_orange .entry-content li a,
+.et_color_scheme_orange .entry-content p a {
+  font-weight: bold;
+  text-decoration: underline; }
+
 /*------------------------------------------------*/
 /*---------------[HEADER]---------------*/
 /*------------------------------------------------*/

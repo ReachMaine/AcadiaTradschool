@@ -65,9 +65,15 @@ $ats_dkgrey: #545454; //  bkg on support button;
 /*------------------------------------------------*/
 .ats-orange-border {
 	border: 3px solid $ats_orange;
+
 }
 .ats-full-width {
 	width: 100%;
+}
+.et_color_scheme_orange .entry-content li a,
+.et_color_scheme_orange .entry-content p a {
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 /*------------------------------------------------*/
