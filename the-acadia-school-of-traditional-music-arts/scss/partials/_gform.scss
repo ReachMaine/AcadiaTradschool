@@ -1,0 +1,19 @@
+/* gravity forms styling */
+.gform_wrapper {
+	.gform_footer {
+
+		input[type=submit] { //  Submit & save for later  look like buttons on the site.
+			  color: white;
+		    padding: 6px 20px;
+		    border-width: 0px;
+		    font-size: 20px!important;
+		    text-align: center;
+		    cursor: pointer;
+				background-color: $ats_orange;
+				//line-height: 1.7em;
+			}
+			.gform_save_link {
+				border-width: 2px;
+			}
+	} // gform footer
+} // gform wrapper

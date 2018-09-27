@@ -11,6 +11,18 @@ Template:    Divi
 Caution: do not remove this to keep Divi Children Engine always updated
 Divi Children Engine version: 1.0.3
 ***********************************************************************/
+/* gravity forms styling */
+.gform_wrapper .gform_footer input[type=submit] {
+  color: white;
+  padding: 6px 20px;
+  border-width: 0px;
+  font-size: 20px !important;
+  text-align: center;
+  cursor: pointer;
+  background-color: #edb059; }
+.gform_wrapper .gform_footer .gform_save_link {
+  border-width: 2px; }
+
 /*------------------------------[FONT ICONS]-----------------------------*/
 /*--[Created by Divi Children, http://divi4u.com/divi-children-plugin/]--*/
 /*-----------------------------------------------------------------------*/
