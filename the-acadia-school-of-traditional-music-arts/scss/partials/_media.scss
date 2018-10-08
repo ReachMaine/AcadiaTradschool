@@ -82,14 +82,28 @@
 
 }
 
-/*-------------------[480px]------------------*/
-@media only screen and ( max-width: 767px ) {
 
-	/*-------------------[Menu]------------------*/
+@media only screen and ( max-width: 767px ) {
+	/* header */
+	.et_header_style_left #logo {
+    max-width: 80%;
+    max-height: 100%;
+	}
+	#et_top_search {
+		display:none;
+	}
 
 }
 
-/*-------------------[320px]------------------*/
+/*-------------------[480px]------------------*/
 @media only screen and ( max-width: 479px ) {
-
+	.ats-full-width-mobile {
+		width: 100%;
+	}
+	.hide-mobile {
+		display: none;
+	}
+	#footer-widgets {
+		padding-bottom: 0px;
+	}
 }
